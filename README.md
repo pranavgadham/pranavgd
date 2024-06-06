@@ -1,0 +1,1 @@
+A minimalistic portfolio website crafted solely with HTML and CSS showcases a clean, elegant design. It highlights projects, skills, and achievements with a responsive layout, ensuring seamless viewing on any device. The absence of JavaScript emphasizes a focus on pure, lightweight code. This site effectively demonstrates proficiency in front-end web development fundamentals.

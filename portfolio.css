@@ -360,20 +360,31 @@ section:nth-child(2n + 1) {
     top: 0;
     left: 0;
     height: 100%;
-    color: transparent;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.47);
+    color: white;
     text-align: center;
     padding: 10px;
-}
-
-.portfolio-image-container:hover {
-    box-shadow: 0 0 20px #74ADC8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 }
 
 .portfolio-image-container:hover .portfolio-details {
-    background-color: #80808078;
-    color: white;
+    opacity: 1;
 }
 
+.portfolio-details a {
+    color: #ffffff;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.portfolio-details a:hover {
+    color: #ffcc00; /* or any other color you prefer on hover */
+}
 
 
 /* Contact Form */

@@ -574,6 +574,14 @@ button:focus {
 
 
 @media only screen and (max-width: 572px) {
+
+    #body-header {
+        height: 70vh;
+    }
+    
+    #my-image {
+        margin-top: -18vh;
+    }
     
     .timeline-box {
         width: 100%;

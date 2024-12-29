@@ -255,11 +255,11 @@ section:nth-child(2n + 1) {
 }
 
 .timeline-box:nth-child(2n+1)::after {
-    right: -11.8%;
+    right: -14.8%;
 }
 
 .timeline-box:nth-child(2n)::after {
-    left: -9%;
+    left: -9.5%;
 }
 
 .timeline-container {
@@ -293,8 +293,7 @@ section:nth-child(2n + 1) {
 }
 
 #timeline-divider i {
-    transform: rotate(90deg);
-    margin-top: -35px;
+    margin-left: -13px;
     display: block;
     color: #2857a4;
 }
